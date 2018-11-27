@@ -3,7 +3,7 @@
 
 ### background
 
-Most of the projects that we'll work with will revolve around SSGs (Static Site Generators). I have chosen Jekyll as the static site generator to state with; and [with good reason](https://www.consagous.com/what-are-static-sites-why-jekyll-is-so-popular-now/) (there's alot of work in this area)
+Most of the projects that we'll work on will revolve around SSGs (Static Site Generators). I have chosen Jekyll as the static site generator to state with; and [with good reason](https://www.consagous.com/what-are-static-sites-why-jekyll-is-so-popular-now/) (there's alot of work in this area)
 
 Look
 
