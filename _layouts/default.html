@@ -11,12 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body class="{% if page.url contains '/index.html' %}homepage is-preload{% endif %}">
-	<body class="{% if page.url contains '/left-sidebar.html' %}left-sidebar is-preload{% endif %}">
-	<body class="{% if page.url contains '/right-sidebar.html' %}right-sidebar is-preload{% endif %}">
-	<body class="{% if page.url contains '/no-sidebar.html' %}no-sidebar is-preload{% endif %}">
+	<body class = "{% if page.url contains '/index.html' %}homepage {% elsif page.url contains '/left-sidebar.html' %}left-sidebar {% elsif page.url contains '/right-sidebar.html' %}right-sidebar {% elsif page.url contains '/no-sidebar.html'%}no-sidebar{% endif %}">
 		<div id="page-wrapper">
-
 			<!-- Header -->
 				<section id="header">
 
@@ -169,8 +165,7 @@
 				</section>
 
 		</div>
-
-		<!-- Scripts -->
+  	<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery3_3_1.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
@@ -179,6 +174,5 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/newnav.js"></script>
-
 	</body>
 </html>
