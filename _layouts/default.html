@@ -11,7 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body class = "{% if page.url contains '/index.html' %}homepage {% elsif page.url contains '/left-sidebar.html' %}left-sidebar {% elsif page.url contains '/right-sidebar.html' %}right-sidebar {% elsif page.url contains '/no-sidebar.html'%}no-sidebar{% endif %}">
+	<body class = "{% if page.url contains '/index.html' %}homepage is-preload{% elsif page.url contains '/left-sidebar.html' %}left-sidebar is-preload{% elsif page.url contains '/right-sidebar.html' %}right-sidebar is-preload{% elsif page.url contains '/no-sidebar.html'%}no-sidebar is-preload{% endif %}">
 		<div id="page-wrapper">
 			<!-- Header -->
 				<section id="header">
