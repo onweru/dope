@@ -1,8 +1,8 @@
 // Get the container element
-var btnContainer = document.getElementById("nav");
+// var btnContainer = document.getElementById("nav");
 
 // Get all buttons with class="page-scroll" inside the container
-var btns = btnContainer.getElementsByClassName("page-scroll");
+// var btns = btnContainer.getElementsByClassName("page-scroll");
 
 // Loop through the buttons and add the active class to the current/clicked button
 // for (var i = 0; i < btns.length; i++) {
@@ -13,19 +13,19 @@ var btns = btnContainer.getElementsByClassName("page-scroll");
 //   });
 // }
 // Loop through the buttons and add current class to the current/clicked button
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var currentA = document.getElementsByClassName("current");
+// for (var i = 0; i < btns.length; i++) {
+//   btns[i].addEventListener("click", function() {
+//     var currentA = document.getElementsByClassName("current");
 
     // If there's no current class
-    if (currentA.length > 0) { 
-      currentA[0].className = currentA[0].className.replace(" current", "");
-    }
+    // if (currentA.length > 0) { 
+    //   currentA[0].className = currentA[0].className.replace(" current", "");
+    // }
 
     // Add the current class to the current/clicked button
-    this.className += " current";
-  });
-}
+//     this.className += " current";
+//   });
+// }
 
 $(document).ready(function () {
 $(function(){
