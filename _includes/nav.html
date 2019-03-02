@@ -1,7 +1,9 @@
-					<!-- Nav -->
-						<nav id="nav">
+
+<!-- Nav -->
+<!---
+					<nav id="nav">
 							<ul>
-								<li><a href= 'index.html' >Home</a></li>
+								<li><a href= 'index.html' class= "{% if page.url contains '/index.html' %} current {% endif %}">Home</a></li>
 								<li >
 									<a href="#" class="smooth">Dropdown</a>
 									<ul>
@@ -30,4 +32,35 @@
                                         {% endfor %}  {% endcomment %}
 							
 							</ul>
+						</nav>
+-->
+					<!-- Nav -->
+						<nav id="nav">
+									
+				{% if site.data.menu.docs[0] %}
+						{% for item in site.data.menu.docs %}
+							<ul>
+								<li class="{% if item.url == page.url %} current {% endif %}">
+										<a href="{{ item.url }}">{{ item.page }}</a>
+								</li>
+								{% if item.subfolderitems[0] %}
+								<ul>
+										{% for entry in item.subfolderitems %}
+											<li><a href="{{ entry.url }}">{{ entry.page }}</a>
+												{% if entry.subsubfolderitems[0] %}
+												<ul>
+												{% for subentry in entry.subsubfolderitems %}
+													<li><a href="{{ subentry.url }}">{{ subentry.page }}</a></li>
+												{% endfor %}
+												</ul>
+												{% endif %}
+											</li>
+										{% endfor %}
+										</ul>
+								{% endif %}
+							</ul>
+
+						{% endfor %}
+					{% endif %}
+					
 						</nav>
