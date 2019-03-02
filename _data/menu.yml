@@ -3,26 +3,26 @@ docs:
   url: index.html
 - page: Dropdown
   url: #
-    subfolderitems:
-      - page: Lorem ipsum dolor
-        url: https://jekyllrb.com/docs/layouts/
-      - page: Magna phasellus
-        url: https://jekyllrb.com/docs/layouts/  
-      - page: Magna phasellus
-        url: https://jekyllrb.com/docs/layouts/
-      - page: Phasellus consequat
-        url: https://jekyllrb.com/docs/layouts/
-        subsubfolderitems:
-          - page: Magna phasellus
-            url: https://jekyllrb.com/docs/layouts/
-          - page: Etiam dolore nisl
-            url: https://jekyllrb.com/docs/layouts/
-          - page: Veroeros feugiat
-            url: https://jekyllrb.com/docs/layouts/
-          - page: Nisl sed aliquam
-            url: https://jekyllrb.com/docs/layouts/
-          - page: Dolore adipiscing
-            url: https://jekyllrb.com/docs/layouts/
+  subfolderitems:
+    - page: Lorem ipsum dolor
+      url: https://jekyllrb.com/docs/layouts/
+    - page: Magna phasellus
+      url: https://jekyllrb.com/docs/layouts/  
+    - page: Magna phasellus
+      url: https://jekyllrb.com/docs/layouts/
+    - page: Phasellus consequat
+      url: https://jekyllrb.com/docs/layouts/
+      subsubfolderitems:
+        - page: Magna phasellus
+          url: https://jekyllrb.com/docs/layouts/
+        - page: Etiam dolore nisl
+          url: https://jekyllrb.com/docs/layouts/
+        - page: Veroeros feugiat
+          url: https://jekyllrb.com/docs/layouts/
+        - page: Nisl sed aliquam
+          url: https://jekyllrb.com/docs/layouts/
+        - page: Dolore adipiscing
+          url: https://jekyllrb.com/docs/layouts/
       - page: Veroeros feugiat
         url: https://jekyllrb.com/docs/layouts/
 - page: Left Sidebar
