@@ -38,29 +38,30 @@
 <nav id="nav">
 	{% assign menu = site.data.menu %}
 	{% if menu %}
-	{% for item in menu %}
 	<ul>
+		{% for item in menu %}
 		<li class="{% if item.url == page.url %} current {% endif %}">
 			<a href="{{ item.url }}">{{ item.page }}</a>
+			{% if item.subfolderitems %}
+			<ul>
+				{% for entry in item.subfolderitems %}
+				<li>
+					<a href="{{ entry.url }}">{{ entry.page }}</a>
+					{% if entry.subsubfolderitems %}
+					<ul>
+						{% for subentry in entry.subsubfolderitems %}
+						<li><a href="{{ subentry.url }}">{{ subentry.page }}</a></li>
+						{% endfor %}
+					</ul>
+					{% endif %}
+				</li>
+				{% endfor %}
+			</ul>
+			{% endif %}
 		</li>
-		{% if item.subfolderitems %}
-		<ul>
-			{% for entry in item.subfolderitems %}
-			<li><a href="{{ entry.url }}">{{ entry.page }}</a>
-				{% if entry.subsubfolderitems %}
-				<ul>
-					{% for subentry in entry.subsubfolderitems %}
-					<li><a href="{{ subentry.url }}">{{ subentry.page }}</a></li>
-					{% endfor %}
-				</ul>
-				{% endif %}
-			</li>
-			{% endfor %}
-		</ul>
-		{% endif %}
+		{% endfor %}
 	</ul>
 	
-	{% endfor %}
 	{% endif %}
 	
 </nav>
