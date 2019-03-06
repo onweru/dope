@@ -1,33 +1,33 @@
 # docs: ... not necessary ~ keep things simple
 - page: Home
-  url: index.html
+  url: /
 - page: Dropdown
   url: #
   subfolderitems:
     - page: Lorem ipsum dolor
-      url: "https://jekyllrb.com/docs/layouts/"
+      url: #
     - page: Magna phasellus
-      url: "https://jekyllrb.com/docs/layouts/"  
+      url: #  
     - page: Magna phasellus
-      url: "https://jekyllrb.com/docs/layouts/"
+      url: #
     - page: Phasellus consequat
-      url: "https://jekyllrb.com/docs/layouts/"
+      url: #
       subsubfolderitems:
         - page: Magna phasellus
-          url: "https://jekyllrb.com/docs/layouts/"
+          url: #
         - page: Etiam dolore nisl
-          url: "https://jekyllrb.com/docs/layouts/"
+          url: #
         - page: Veroeros feugiat
-          url: "https://jekyllrb.com/docs/layouts/"
+          url: #
         - page: Nisl sed aliquam
-          url: "https://jekyllrb.com/docs/layouts/"
+          url: #
         - page: Dolore adipiscing
-          url: "https://jekyllrb.com/docs/layouts/"
+          url: #
     - page: Veroeros feugiat
-      url: "https://jekyllrb.com/docs/layouts/"
+      url: #
 - page: Left Sidebar
-  url: left-sidebar.html
+  url: /left-sidebar.html
 - page: Right Sidebar 
-  url: right-sidebar.html
+  url: /right-sidebar.html
 - page: No sidebar
-  url: no-sidebar.html  
+  url: /no-sidebar.html  

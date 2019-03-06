@@ -2099,13 +2099,7 @@ input, select, textarea {
 					background: #f3f3f3;
 				}
 
-				/* #nav > ul > li.current > a {
-					background: #d52349;
-					color: #fff !important;
-					font-weight: 700;
-				} */
-
-				#nav > ul > li > a.current {
+				#nav > ul > li.current > a {
 					background: #d52349;
 					color: #fff !important;
 					font-weight: 700;
