@@ -26,8 +26,8 @@
     - page: Veroeros feugiat
       url: #
 - page: Left Sidebar
-  url: /left-sidebar.html
+  url: /left-sidebar.html/
 - page: Right Sidebar 
-  url: /right-sidebar.html
+  url: /right-sidebar.html/
 - page: No sidebar
-  url: /no-sidebar.html  
+  url: /no-sidebar.html/  
