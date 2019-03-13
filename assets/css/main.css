@@ -2313,7 +2313,13 @@ input, select, textarea {
 			#footer header h2 {
 				font-size: 1.75em;
 			}
-
+	.notfound {
+	min-height: 75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	}
 /* Copyright */
 
 	#copyright {
