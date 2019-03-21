@@ -1,0 +1,12 @@
+- name: Ipsum consequat
+  section: first
+  icon: icon featured fa-cog
+  description: Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.
+- name: Magna etiam dolor
+  section: middle
+  icon: icon featured alt fa-flash
+  description: Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.
+- name: Tempus adipiscing
+  section: last
+  icon: icon featured alt2 fa-star
+  description: Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.
