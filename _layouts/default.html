@@ -13,8 +13,13 @@
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
-<body {% assign class = page.title|append: " is-preload" %}>
-  <!-- Sort this out -->
+    {% capture pg_title %}
+       {{ page.title }}
+    {% endcapture %}
+
+
+<body  class="{{ pg_title | append: ' ispreload'}}">  <!-- SOLUTION TOO CRUDE -->
+  
   <div id="page-wrapper">
 
     <!-- Header -->
