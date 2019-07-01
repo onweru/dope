@@ -1,0 +1,22 @@
+{% for post in site.blogposts%}
+
+<div class="col-6 col-12-small">
+  <section class="box">
+    <a href="#" class="image featured"><img src= "{{ post.image_path }}" alt="" /></a>
+    <header>
+      <h3> {{ post.header_title }}</h3>
+      <p>Posted {{ post.time_lapsed }} minutes ago</p>
+    </header>
+    <p> 
+      {{ post.content }}
+    </p>
+    <footer>
+      <ul class="actions">
+        <li><a href="#" class="button icon fa-file-text">Continue Reading</a></li>
+        <li><a href="#" class="button alt icon fa-comment">33 comments</a></li>
+      </ul>
+    </footer>
+  </section>
+</div>
+
+{% endfor %}
