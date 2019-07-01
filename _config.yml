@@ -2,4 +2,16 @@
 collections:
   portfolio:
   blogposts:
+
+navigation:
+  - text: Home
+    url: /
+  # -text: Dropdown
+  #   url: /Dropdown
+  - text: Left Sidebar
+    url: /left-sidebar.html
+  - text: Right Sidebar
+    url: /right-sidebar.html
+  - text: No Sidebar
+    url: /no-sidebar.html
 ---

@@ -13,12 +13,22 @@
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
-<body class="{{ page.title | append: "is-preload" }}">
+<body {% assign class = page.title|append: " is-preload" %}>
   <!-- Sort this out -->
   <div id="page-wrapper">
 
     <!-- Header -->
-    {% include header.html %}
+    <section id="header">
+
+      <!-- Logo -->
+      <h1><a href="index.html">Dopetrope</a></h1>
+
+      <!-- Nav -->
+      {% include navigation.html %}
+      {% if page.banner %}
+      {% include {{ page.banner }} %}
+      {% endif %}
+    </section>
 
     {{ content }}
 
