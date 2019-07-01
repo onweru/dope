@@ -1,8 +1,10 @@
+{% for project in site.portfolio %}
+
 <div class="col-4 col-6-medium col-12-small">
   <section class="box">
     <a href="#" class="image featured"><img src="{{ project.image_path }}" alt="" /></a>
     <header>
-      <h3> {{ project.title }}</h3>
+      <h3> {{ project.header_title }}</h3>
     </header>
     <p> {{project.content }} </p>
     <footer>
@@ -11,3 +13,6 @@
       </ul>
     </footer>
   </section>
+</div>
+
+{% endfor %}
