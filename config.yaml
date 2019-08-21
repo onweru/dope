@@ -1,0 +1,62 @@
+title: "Dope Theme"
+description: "A jekyll clone of dope html theme"
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate-v2
+sass:
+  style: compressed
+
+collections:
+  # news:
+  #   output: true 
+
+pagination:
+  enabled: true
+  debug: false
+  per_page: 5
+  permalink: "/page/:num/"
+  title: ":title"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
+# Plugin: Auto Pages (jekyll-paginate-v2)
+autopages:
+  enabled: true
+  categories:
+    enabled: false
+  collections:
+    enabled: false
+  tags:
+    enabled: true
+    slugify:
+      mode: raw
+      cased: true
+    layouts:
+      - "tags.md"
+    title: ":tag" # :tag is replaced by the tag name
+    permalink: "/tag/:tag"
+
+exclude:
+  - Gemfile
+  - Rakefile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE.md
+
+include: 
+  - _pages
+
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+      author: Weru
+      permalink: /:title/
+      # image: thumbnail.svg
