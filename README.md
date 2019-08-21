@@ -44,7 +44,7 @@ Start with [grid css](https://css-tricks.com/snippets/css/complete-guide-grid/) 
 
 You will use [Git](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud) for all your projects. I realize you may already be good in this. [Just in case though](https://try.github.io/), check for tutorials on youtube. You just need the basics to get started and progressively learn a few more tricks as you go by.
 
-### Finally
+## Finally
 
 There's alot of items I would include in this list. I think that would be somewhat overwhelming, thus unnecessary.  This list should suffice for now.
 
