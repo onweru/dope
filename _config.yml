@@ -1,5 +1,8 @@
-title: "Dope Theme"
+title: "Dope Jekyll Theme"
 description: "A jekyll clone of dope html theme"
+designer:
+  name: Weru
+  url: https://neuralvibes.com
 markdown: kramdown
 plugins:
   - jekyll-feed
@@ -17,7 +20,7 @@ defaults:
     scope:
       path: "_content"
     values:
-      layout: "default"
+      layout: "page"
       permalink: /:title/
       # image: thumbnail.svg
   -
@@ -25,7 +28,7 @@ defaults:
       path: "_posts"
       type: "posts"
     values:
-      layout: "post"
+      layout: "page"
       author: Weru
       permalink: /:title/
       # image: thumbnail.svg
