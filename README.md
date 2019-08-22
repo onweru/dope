@@ -2,7 +2,7 @@
 
 - Convert [this html5 theme](https://html5up.net/dopetrope) into a jekyll website/theme
 
-See [this repo's instructions wiki](https://github.com/onweru/dope/wiki/Conversion-Instructions) to see how to go about it.
+See [this repo's instructions wiki](https://github.com/onweru/dope/wiki/Conversion-Instructions) on how to go about it.
 
 ## Remaining Todos
 
