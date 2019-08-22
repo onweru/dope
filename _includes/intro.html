@@ -1,0 +1,19 @@
+<section id = 'intro' class = 'container'>
+  <div class = 'grid-3'>
+  {%- for item in site.data.featured -%}
+    <section class = '{{ item.position }}'>
+      <i class = 'icon featured {{ item.icon }}'></i>
+      <header>
+        <h2>{{ item.title }}</h2>
+      </header>
+      <p>{{ item.description }}</p>
+    </section>
+  {%- endfor -%}
+  </div>
+  <footer>
+    <ul class = 'actions'>
+      <li><a href = '#' class = 'button large'>Get Started</a></li>
+      <li><a href = '#' class = 'button alt large'>Learn More</a></li>
+    </ul>
+  </footer>
+</section>
