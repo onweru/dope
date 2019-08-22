@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class = 'container'>
+  <section>
+    <header class = 'major'>
+      <h2>My Portfolio</h2>
+    </header>
+    <div class = 'grid-3'>
+      {%- for project in site.data.projects %}
+      {% include project.html %}
+      {%- endfor %}
+    </div>
+  </section> 
+  <section>
+    <header class = 'major'>
+      <h2>The Blog</h2>
+    </header>
+    <div class = 'grid-2'>
+      {%- for post in site.posts limit: 2 %}
+      {% include summary.html %}
+      {%- endfor %}
+    </div>
+  </section>			
+</div>

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class = 'container'>
+  {%- assign sidebar = page.sidebar -%}
+  {%- if sidebar == "left" %}
+    {% assign class = "reverse" %}
+  {%- else %}
+    {% assign class = "auto" %}
+  {%- endif %}
+
+  <div class = '{% if sidebar %}grid-{{ class }}{% endif %}'>	
+    <article class = 'box post {% unless sidebar %}wrap_min{% endunless %}'>
+      <div class = 'image featured'>
+        <img src = '/images/{{ page.featured_image }}' alt = 'thumbnail'>
+      </div>
+      {{ content }}
+    </article>
+    {%- if sidebar %}
+    <aside>
+      {% include sidebar.html %}
+    </aside>
+    {%- endif %}
+  </div>
+</div>
