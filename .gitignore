@@ -1,3 +1,4 @@
 _site
 *-cache
 *.lock
+.DS_Store
