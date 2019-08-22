@@ -1,0 +1,12 @@
+- title: Ipsum consequat
+  position: 'first'
+  icon: fa-cog'
+  description: Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.
+- title: Magna etiam dolor
+  position: 'middle'
+  icon: alt fa-flash'
+  description: Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.
+- title: Tempus adipiscing
+  position: 'last'
+  icon: alt2 fa-star'
+  description: Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.

@@ -1,0 +1,30 @@
+- name: Home
+  url: '/'
+- name: Dropdown
+  submenu:
+    - name: Lorem ipsum dolor
+      url: '#'
+    - name: Magna phasellus
+      url: '#'
+    - name: Etiam dolore nisl
+      url: '#'
+    - name: Phasellus consequat
+      submenu:
+        - name: Magna phasellus
+          url: '#'
+        - name: Etiam dolore nisl
+          url: '#'
+        - name: Veroeros feugiat
+          url: '#'
+        - name: Nisl sed aliquam
+          url: '#'
+        - name: Dolore adipiscing
+          url: '#'
+    - name: Veroeros feugiat
+      url: '#'
+- name: Left Sidebar
+  url: '/left-sidebar/'
+- name: Right Sidebar
+  url: '/right-sidebar/'
+- name: No Sidebar
+  url: '/no-sidebar/'
